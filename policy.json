@@ -1,0 +1,21 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Action": [
+        "ec2:DescribeInstances",
+        "ec2:StopInstances",
+        "ec2:DescribeVolumes",
+        "rds:DescribeDBInstances",
+        "rds:StopDBInstance",
+        "s3:ListBucket",
+        "s3:GetObject",
+        "s3:CopyObject",
+        "sns:Publish",
+        "cloudwatch:PutMetricData"
+      ],
+      "Resource": "*"
+    }
+  ]
+}
